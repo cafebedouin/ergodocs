@@ -37,7 +37,9 @@ Import the SDK for the build system you are using in your project.
 === "SBT"
 
     ``` 
-		tbd
+		libraryDependencies += "org.ergoplatform" %% "ergo-appkit" % "5.0.0"
+		resolvers +=
+  			"MVN Repository" at "https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit"
     ```
 
 === "npm"
